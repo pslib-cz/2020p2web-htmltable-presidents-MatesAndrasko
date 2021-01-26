@@ -6,18 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       table.presidents {width: 100%;border-collapse: collapse;}
+      
       .presidents th, .presidents td {border: 1px solid gray; padding: 5px;}
       .presidents th {font-weight: 700; text-align: center;}
       .presidents td {font-weight: 400;}
       .presidents .komuniste {background-color: #c74d4d; color: yellow;}
       .presidents .spolecne {background-color: #4a4abe; color: yellow;}
-      .presidents .roky {background-color: #D7CCC8;font-weight: bold;}
+      .presidents .roky {background-color: #D7CCC8;}
       .presidents .cr {background-color: #90CAF9;}
       .presidents .sr {background-color: #F8BBD0;}
     </style>
   </head>
   <body>
     <table class="presidents">
+      <col class="roky">
+      <col class="roky">
+      <col class="cr">
+      <col class="sr"> 
       <caption>Seznam prezidentů ČR a SR od roku 1989</caption>
       <thead>
         <tr>
@@ -28,7 +33,7 @@
           <th>Poznámka</th>
         </tr>
       </thead>
-      <tbody class="komuniste">
+      <tbody class="komuniste" style="border-top:3px solid black;">
         <tr>
           <td>1975</td>
           <td>1989</td>
@@ -49,62 +54,62 @@
           <td>31.prosince 1992 zaniká Česko-Slovenská Federativní Republika</td>
         </tr>
       </tbody>
-      <tbody>
+      <tbody style="border-bottom: 3px solid black;">
         <tr>
-          <td class="roky">1993</td>
-          <td class="roky">1998</td>
-          <td class="cr" rowspan="3">Václav Havel</td>
-          <td class="sr">Michal Kováč</td>
+          <td>1993</td>
+          <td>1998</td>
+          <td rowspan="3">Václav Havel</td>
+          <td>Michal Kováč</td>
           <td></td>
         </tr>
         <tr>
-          <td class="roky">1998</td>
-          <td class="roky">1999</td>
-          <td class="sr" style="color: grey;">bez prezidenta</td>
+          <td>1998</td>
+          <td>1999</td>
+          <td style="color: grey;">bez prezidenta</td>
           <td style="color: grey;">Na Slovensku v této době byli pověřeni prezidentskými pravomocenmi tehdejší premiéři</td>
         </tr>
         <tr>
-          <td class="roky">1999</td>
-          <td class="roky">2003</td>
-          <td class="sr" rowspan="2">Rudolf Schuster</td>
+          <td>1999</td>
+          <td>2003</td>
+          <td rowspan="2">Rudolf Schuster</td>
           <td></td>
         </tr>
         <tr>
-          <td class="roky">2003</td>
-          <td class="roky">2004</td>
-          <td class="cr" rowspan="2">Václav Klaus</td>
+          <td>2003</td>
+          <td>2004</td>
+          <td rowspan="2">Václav Klaus</td>
           <td></td>
         </tr>
         <tr>
-          <td class="roky">2004</td>
-          <td class="roky">2013</td>
-          <td class="sr" rowspan="2">Ivan Gašparovič</td>
+          <td>2004</td>
+          <td>2013</td>
+          <td rowspan="2">Ivan Gašparovič</td>
           <td></td>
         </tr>
         <tr>
-          <td class="roky">2013</td>
-          <td class="roky">2014</td>
-          <td class="cr" rowspan="3">Miloš Zeman</td>
+          <td>2013</td>
+          <td>2014</td>
+          <td rowspan="3">Miloš Zeman</td>
           <td></td>
         </tr>
         <tr>
-          <td class="roky">2014</td>
-          <td class="roky">2019</td>
-          <td class="sr">Andrej Kiska</td>
+          <td>2014</td>
+          <td>2019</td>
+          <td>Andrej Kiska</td>
           <td></td>
         </tr>
         <tr>
-          <td class="roky">2019</td>
-          <td class="roky">dosud</td>
-          <td class="sr">Zuzana Čaputová</td>
+          <td>2019</td>
+          <td>dosud</td>
+          <td>Zuzana Čaputová</td>
           <td></td>
         </tr>
       </tbody>
       </tfoot>
         <tr>
-          <td class="roky" colspan="2" style="text-align: center;">Počet</td>
-          <td class="cr">2+3</td>
-          <td class="sr">2+5</td>
+          <td colspan="2" style="text-align: center;">Počet</td>
+          <td>2+3</td>
+          <td>2+5</td>
           <td></td>
         </tr>
       </tfoot>
